@@ -50,6 +50,34 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookStatistics.aspx.cs">
+      <DependentUpon>BookStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookStatistics.aspx.designer.cs">
+      <DependentUpon>BookStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CartView.aspx.cs">
+      <DependentUpon>CartView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CartView.aspx.designer.cs">
+      <DependentUpon>CartView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\HeaderMenu.ascx.cs">
       <DependentUpon>HeaderMenu.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -67,12 +95,16 @@
     <Content Include="BookAdd.aspx" />
     <Content Include="BookDetail.aspx" />
     <Content Include="BookList.aspx" />
+    <Content Include="BookStatistics.aspx" />
+    <Content Include="CartView.aspx" />
     <Content Include="DB\MyBookShop.sql" />
+    <Content Include="Default.aspx" />
     <Content Include="Images\Category.gif" />
     <Content Include="Images\logo.JPG" />
     <Content Include="Images\Price.gif" />
     <Content Include="Images\Publiser.gif" />
     <Content Include="Login.aspx" />
+    <Content Include="Register.aspx" />
     <Content Include="Styles\Style.css" />
     <Compile Include="BookAdd.aspx.cs">
       <DependentUpon>BookAdd.aspx</DependentUpon>

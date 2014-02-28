@@ -10,7 +10,7 @@
 namespace MyBookShop {
     
     
-    public partial class BookDetail {
+    public partial class CartView {
         
         /// <summary>
         /// Head1 控件。
@@ -31,31 +31,31 @@ namespace MyBookShop {
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
         
         /// <summary>
-        /// Headermenu1 控件。
+        /// headerMenu 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::MyBookShop.UserControls.HeaderMenu Headermenu1;
+        protected global::MyBookShop.UserControls.HeaderMenu headerMenu;
         
         /// <summary>
-        /// LabelBookInfo 控件。
+        /// userCheck1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelBookInfo;
+        protected global::MyBookShop.UserControls.UserCheck userCheck1;
         
         /// <summary>
-        /// ImageBook 控件。
+        /// GV 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImageBook;
+        protected global::System.Web.UI.WebControls.GridView GV;
         
         /// <summary>
         /// ButtonBack 控件。
@@ -65,5 +65,14 @@ namespace MyBookShop {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonBack;
+        
+        /// <summary>
+        /// ButtonBuy 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonBuy;
     }
 }

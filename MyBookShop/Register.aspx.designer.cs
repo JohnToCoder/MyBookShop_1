@@ -10,7 +10,7 @@
 namespace MyBookShop {
     
     
-    public partial class BookDetail {
+    public partial class Register {
         
         /// <summary>
         /// Head1 控件。
@@ -31,39 +31,75 @@ namespace MyBookShop {
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
         
         /// <summary>
-        /// Headermenu1 控件。
+        /// TextBoxLoginName 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::MyBookShop.UserControls.HeaderMenu Headermenu1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxLoginName;
         
         /// <summary>
-        /// LabelBookInfo 控件。
+        /// ButtonCheck 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelBookInfo;
+        protected global::System.Web.UI.WebControls.Button ButtonCheck;
         
         /// <summary>
-        /// ImageBook 控件。
+        /// TextBoxUserName 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImageBook;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxUserName;
         
         /// <summary>
-        /// ButtonBack 控件。
+        /// TextBoxPassword 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonBack;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxPassword;
+        
+        /// <summary>
+        /// TextBoxPassword2 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxPassword2;
+        
+        /// <summary>
+        /// TextBoxAddress 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxAddress;
+        
+        /// <summary>
+        /// TextBoxZip 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxZip;
+        
+        /// <summary>
+        /// ButtonOK 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonOK;
     }
 }
